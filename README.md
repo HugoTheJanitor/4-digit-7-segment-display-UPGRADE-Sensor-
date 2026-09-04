@@ -196,7 +196,7 @@ The measured distance is separated into four individual digits and displayed as 
 
 This project is licensed under the MIT License.
 
-See `LICENSE` for details.
+See [`LICENSE`](https://github.com/HugoTheJanitor/4-digit-7-segment-display-UPGRADE-Sensor-/blob/main/LICENSE) for details.
 
 ---
 
