@@ -93,7 +93,7 @@ The VSC source uses:
 #include "Arduino.h"
 ```
 
-The original Arduino IDE sketch remains separate and unchanged.
+The original Arduino IDE sketch remains separate and unchanged. *(Serial Monitor output is kept in the Arduino IDE version; the lightweight VSC version focuses on the main sensor and display logic.)*
 
 ---
 
