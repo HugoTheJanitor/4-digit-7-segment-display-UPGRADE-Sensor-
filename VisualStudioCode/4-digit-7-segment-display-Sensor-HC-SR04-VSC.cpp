@@ -58,8 +58,6 @@ void setup()
   // HC-SR04
   pinMode(trigPin, OUTPUT);
   pinMode(echoPin, INPUT);
-
-  Serial.begin(9600);
 }
 
 void loop()
@@ -73,12 +71,7 @@ void loop()
   if (currentMillis - previousMillis >= sensorDelay)
   {
     previousMillis = currentMillis;
-
     distance = getDistance();
-
-    Serial.print("Distance: ");
-    Serial.print(distance);
-    Serial.println(" mm");
   }
 }
 
