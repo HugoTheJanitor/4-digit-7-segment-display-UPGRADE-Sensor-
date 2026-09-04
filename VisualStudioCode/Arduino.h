@@ -23,16 +23,4 @@ inline void delayMicroseconds(unsigned int) {}
 inline unsigned long millis() { return 0; }
 inline unsigned long pulseIn(int, int) { return 0; }
 
-class SerialStub
-{
-public:
-  void begin(long) {}
-  void print(const char*) {}
-  void print(int) {}
-  void println(const char*) {}
-  void println(int) {}
-};
-
-static SerialStub Serial;
-
 #endif
